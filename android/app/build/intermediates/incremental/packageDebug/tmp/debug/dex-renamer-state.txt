@@ -1,0 +1,4 @@
+#Sat Mar 13 18:13:08 IST 2021
+base.0=/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

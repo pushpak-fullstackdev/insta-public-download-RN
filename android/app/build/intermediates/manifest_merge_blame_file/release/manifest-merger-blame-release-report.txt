@@ -1,0 +1,109 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.instadownloaderpublic"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:5:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:6:5-80
+13-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:6:22-78
+14
+15    <!-- Required to access Google Play Licensing -->
+16    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+16-->[:rn-fetch-blob] /Users/pushpak/Code/React Native/instadownloaderpublic/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-73
+16-->[:rn-fetch-blob] /Users/pushpak/Code/React Native/instadownloaderpublic/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:22-70
+17    <!--
+18         Required to keep CPU alive while downloading files
+19        (NOT to keep screen awake)
+20    -->
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[:rn-fetch-blob] /Users/pushpak/Code/React Native/instadownloaderpublic/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:5-68
+21-->[:rn-fetch-blob] /Users/pushpak/Code/React Native/instadownloaderpublic/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:22-65
+22    <!--
+23         Required to poll the state of the network connection
+24        and respond to changes
+25    -->
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required to check whether Wi-Fi is enabled -->
+26-->[:rn-fetch-blob] /Users/pushpak/Code/React Native/instadownloaderpublic/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:5-79
+26-->[:rn-fetch-blob] /Users/pushpak/Code/React Native/instadownloaderpublic/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:22-76
+27    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+27-->[:rn-fetch-blob] /Users/pushpak/Code/React Native/instadownloaderpublic/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:5-76
+27-->[:rn-fetch-blob] /Users/pushpak/Code/React Native/instadownloaderpublic/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:22-73
+28
+29    <application
+29-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:7:5-27:19
+30        android:name="com.instadownloaderpublic.MainApplication"
+30-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:8:7-38
+31        android:allowBackup="false"
+31-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:12:7-34
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.0.1] /Users/pushpak/.gradle/caches/transforms-2/files-2.1/003564936a98162fbdc3e4a2ca6d8cd0/core-1.0.1/AndroidManifest.xml:22:18-86
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:10:7-41
+34        android:label="@string/app_name"
+34-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:9:7-39
+35        android:requestLegacyExternalStorage="true"
+35-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:13:7-50
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:11:7-52
+37        android:theme="@style/AppTheme" >
+37-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:14:7-38
+38        <activity
+38-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:15:7-25:18
+39            android:name="com.instadownloaderpublic.MainActivity"
+39-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:16:9-37
+40            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+40-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:18:9-86
+41            android:label="@string/app_name"
+41-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:17:9-41
+42            android:launchMode="singleTask"
+42-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:19:9-40
+43            android:windowSoftInputMode="adjustResize" >
+43-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:20:9-51
+44            <intent-filter>
+44-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:21:9-24:25
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:22:13-65
+45-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:22:21-62
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:23:13-73
+47-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:23:23-70
+48            </intent-filter>
+49        </activity>
+50        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+50-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:26:7-84
+50-->/Users/pushpak/Code/React Native/instadownloaderpublic/android/app/src/main/AndroidManifest.xml:26:17-81
+51
+52        <provider
+52-->[:rn-fetch-blob] /Users/pushpak/Code/React Native/instadownloaderpublic/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:36:9-44:20
+53            android:name="com.RNFetchBlob.Utils.FileProvider"
+53-->[:rn-fetch-blob] /Users/pushpak/Code/React Native/instadownloaderpublic/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:37:13-62
+54            android:authorities="com.instadownloaderpublic.provider"
+54-->[:rn-fetch-blob] /Users/pushpak/Code/React Native/instadownloaderpublic/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-60
+55            android:exported="false"
+55-->[:rn-fetch-blob] /Users/pushpak/Code/React Native/instadownloaderpublic/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-37
+56            android:grantUriPermissions="true" >
+56-->[:rn-fetch-blob] /Users/pushpak/Code/React Native/instadownloaderpublic/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:40:13-47
+57            <meta-data
+57-->[:rn-fetch-blob] /Users/pushpak/Code/React Native/instadownloaderpublic/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:41:13-43:58
+58                android:name="android.support.FILE_PROVIDER_PATHS"
+58-->[:rn-fetch-blob] /Users/pushpak/Code/React Native/instadownloaderpublic/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:42:17-67
+59                android:resource="@xml/provider_paths" />
+59-->[:rn-fetch-blob] /Users/pushpak/Code/React Native/instadownloaderpublic/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:43:17-55
+60        </provider>
+61    </application>
+62
+63</manifest>

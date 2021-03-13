@@ -1,0 +1,6 @@
+module Pods_instadownloaderpublic_instadownloaderpublicTests {
+  umbrella header "Pods-instadownloaderpublic-instadownloaderpublicTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
